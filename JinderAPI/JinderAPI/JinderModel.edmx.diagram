@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="229d5654ae534065b21019cee16dd5f8" Name="Diagram1">
+        <EntityTypeShape EntityType="JinderDBModel.ChatMessage" Width="1.5" PointX="3" PointY="1.625" />
+        <EntityTypeShape EntityType="JinderDBModel.ExpressionLog" Width="1.5" PointX="3" PointY="11.125" />
+        <EntityTypeShape EntityType="JinderDBModel.JinderUser" Width="1.5" PointX="0.75" PointY="7.125" />
+        <EntityTypeShape EntityType="JinderDBModel.JobPost" Width="1.5" PointX="3" PointY="7.75" />
+        <EntityTypeShape EntityType="JinderDBModel.Notification" Width="1.5" PointX="3" PointY="14.25" />
+        <EntityTypeShape EntityType="JinderDBModel.SeekerProfile" Width="1.5" PointX="3" PointY="4.625" />
+        <AssociationConnector Association="JinderDBModel.FK_ChatMessage_JinderUser" />
+        <AssociationConnector Association="JinderDBModel.FK_ChatMessage_JinderUser1" />
+        <AssociationConnector Association="JinderDBModel.FK_ExpressionLog_JinderUser" />
+        <AssociationConnector Association="JinderDBModel.FK_ExpressionLog_JinderUser1" />
+        <AssociationConnector Association="JinderDBModel.FK_JobPost_JinderUser" />
+        <AssociationConnector Association="JinderDBModel.FK_Notification_JinderUser" />
+        <AssociationConnector Association="JinderDBModel.FK_SeekerProfile_JinderUser" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
